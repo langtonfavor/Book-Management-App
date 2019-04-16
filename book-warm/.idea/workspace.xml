@@ -1,7 +1,360 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e0d5925-2230-49e0-a397-12dc823285e2" name="Default Changelist" comment="" />
+    <list default="true" id="8e0d5925-2230-49e0-a397-12dc823285e2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/forms/ForgotPasswordForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/forms/SearchBookForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/messages/ConfirmEmailMessage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/ConfirmationPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/ForgotPassword.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/NewBookPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/ResetPassword.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/forms/LoginForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/forms/LoginForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/LoginPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/LoginPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/.eslintrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/acorn" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/acorn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/acorn.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/atob" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/atob" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/atob.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/babel" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/babel" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/babel-doctor" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/babel-doctor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/babel-doctor.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/babel-external-helpers" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/babel-external-helpers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/babel-external-helpers.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/babel-node" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/babel-node" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/babel-node.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/babel.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/babylon" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/babylon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/babylon.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/browserslist" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/browserslist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/browserslist.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/detect-libc" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/detect-libc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/detect-libc.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/eslint" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/eslint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/eslint-config-prettier-check" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/eslint-config-prettier-check" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/eslint-config-prettier-check.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/eslint.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/esparse" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/esparse" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/esparse.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/esvalidate" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/esvalidate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/esvalidate.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/is-ci" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/is-ci" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/is-ci.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/js-yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/js-yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/js-yaml.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/jsesc" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/jsesc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/jsesc.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/json5" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/json5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/json5.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/loose-envify" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/loose-envify" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/loose-envify.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/mime" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/mime" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/mime.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/mkdirp" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/mkdirp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/mkdirp.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/needle" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/needle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/needle.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/node-pre-gyp" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/node-pre-gyp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/node-pre-gyp.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/nodemon" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/nodemon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/nodemon.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/nodetouch" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/nodetouch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/nodetouch.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/nopt" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/nopt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/nopt.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/parser" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/parser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/parser.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/prettier" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/prettier" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/prettier.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/rc" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/rc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/rc.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/regjsparser" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/regjsparser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/regjsparser.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/rimraf" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/rimraf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/rimraf.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/semver" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/semver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/semver.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/user-home" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/user-home" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/user-home.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/which" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/which" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/.bin/which.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/.yarn-integrity" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/.yarn-integrity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/@babel/generator/node_modules/.bin/jsesc" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/@babel/generator/node_modules/.bin/jsesc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/@babel/generator/node_modules/.bin/jsesc.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/@babel/generator/node_modules/jsesc/bin/jsesc" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/@babel/generator/node_modules/jsesc/bin/jsesc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/@babel/parser/bin/babel-parser.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/@babel/parser/bin/babel-parser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/@babel/template/node_modules/.bin/parser" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/@babel/template/node_modules/.bin/parser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/@babel/template/node_modules/.bin/parser.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/@babel/traverse/node_modules/.bin/parser" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/@babel/traverse/node_modules/.bin/parser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/@babel/traverse/node_modules/.bin/parser.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/acorn-jsx/node_modules/.bin/acorn" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/acorn-jsx/node_modules/.bin/acorn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/acorn-jsx/node_modules/.bin/acorn.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/acorn/bin/acorn" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/acorn/bin/acorn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/ajv/scripts/info" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/ajv/scripts/info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/ajv/scripts/prepare-tests" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/ajv/scripts/prepare-tests" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/ajv/scripts/publish-built-version" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/ajv/scripts/publish-built-version" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/ajv/scripts/travis-gh-pages" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/ajv/scripts/travis-gh-pages" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/anymatch/node_modules/arr-diff/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/anymatch/node_modules/arr-diff/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/anymatch/node_modules/array-unique/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/anymatch/node_modules/array-unique/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/anymatch/node_modules/array-unique/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/anymatch/node_modules/array-unique/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/anymatch/node_modules/array-unique/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/anymatch/node_modules/array-unique/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/anymatch/node_modules/array-unique/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/anymatch/node_modules/array-unique/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/anymatch/node_modules/micromatch/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/anymatch/node_modules/micromatch/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/anymatch/node_modules/micromatch/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/anymatch/node_modules/micromatch/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/arr-diff/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/arr-diff/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/arr-flatten/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/arr-flatten/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/arr-flatten/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/arr-flatten/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/array-unique/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/array-unique/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/array-unique/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/array-unique/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/atob/bin/atob.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/atob/bin/atob.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/babel-cli/bin/babel-doctor.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/babel-cli/bin/babel-doctor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/babel-cli/bin/babel-external-helpers.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/babel-cli/bin/babel-external-helpers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/babel-cli/bin/babel-node.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/babel-cli/bin/babel-node.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/babel-cli/bin/babel.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/babel-cli/bin/babel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/babel-cli/lib/babel-external-helpers.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/babel-cli/lib/babel-external-helpers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/babel-cli/lib/babel-node.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/babel-cli/lib/babel-node.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/babel-cli/lib/babel/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/babel-cli/lib/babel/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/babel-cli/scripts/bootstrap.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/babel-cli/scripts/bootstrap.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/babel-core/node_modules/.bin/babylon" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/babel-core/node_modules/.bin/babylon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/babel-core/node_modules/.bin/babylon.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/babel-core/node_modules/.bin/json5" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/babel-core/node_modules/.bin/json5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/babel-core/node_modules/.bin/json5.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/babel-eslint/node_modules/.bin/eslint" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/babel-eslint/node_modules/.bin/eslint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/babel-eslint/node_modules/.bin/eslint.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/babel-eslint/node_modules/.bin/parser" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/babel-eslint/node_modules/.bin/parser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/babel-eslint/node_modules/.bin/parser.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/babel-generator/node_modules/.bin/jsesc" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/babel-generator/node_modules/.bin/jsesc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/babel-generator/node_modules/.bin/jsesc.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/babel-polyfill/scripts/build-dist.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/babel-polyfill/scripts/build-dist.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/babel-preset-env/node_modules/.bin/browserslist" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/babel-preset-env/node_modules/.bin/browserslist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/babel-preset-env/node_modules/.bin/browserslist.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/babel-preset-env/node_modules/.bin/semver" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/babel-preset-env/node_modules/.bin/semver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/babel-preset-env/node_modules/.bin/semver.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/babel-register/node_modules/.bin/mkdirp" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/babel-register/node_modules/.bin/mkdirp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/babel-register/node_modules/.bin/mkdirp.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/babel-template/node_modules/.bin/babylon" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/babel-template/node_modules/.bin/babylon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/babel-template/node_modules/.bin/babylon.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/babel-traverse/node_modules/.bin/babylon" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/babel-traverse/node_modules/.bin/babylon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/babel-traverse/node_modules/.bin/babylon.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/babylon/bin/babylon.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/babylon/bin/babylon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/bcrypt/appveyor.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/bcrypt/appveyor.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/bcrypt/lib/binding/bcrypt_lib.node" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/bcrypt/lib/binding/bcrypt_lib.node" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/bcrypt/node_modules/.bin/node-pre-gyp" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/bcrypt/node_modules/.bin/node-pre-gyp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/bcrypt/node_modules/.bin/node-pre-gyp.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/bluebird/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/bluebird/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/bluebird/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/bluebird/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/bluebird/js/browser/bluebird.core.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/bluebird/js/browser/bluebird.core.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/bluebird/js/browser/bluebird.core.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/bluebird/js/browser/bluebird.core.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/bluebird/js/browser/bluebird.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/bluebird/js/browser/bluebird.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/bluebird/js/browser/bluebird.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/bluebird/js/browser/bluebird.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/bluebird/js/release/async.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/bluebird/js/release/async.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/bluebird/js/release/debuggability.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/bluebird/js/release/debuggability.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/bluebird/js/release/promise.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/bluebird/js/release/promise.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/bluebird/js/release/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/bluebird/js/release/util.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/bluebird/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/bluebird/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/browserslist/cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/browserslist/cli.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/color-name/.npmignore" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/color-name/.npmignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/color-name/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/color-name/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/color-name/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/color-name/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/color-name/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/color-name/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/color-name/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/color-name/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/component-emitter/History.md" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/component-emitter/History.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/component-emitter/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/component-emitter/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/component-emitter/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/component-emitter/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/component-emitter/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/component-emitter/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/component-emitter/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/component-emitter/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/cross-spawn/node_modules/.bin/semver" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/cross-spawn/node_modules/.bin/semver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/cross-spawn/node_modules/.bin/semver.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/cross-spawn/node_modules/.bin/which" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/cross-spawn/node_modules/.bin/which" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/cross-spawn/node_modules/.bin/which.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/detect-libc/bin/detect-libc.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/detect-libc/bin/detect-libc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/es-abstract/operations/getOps.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/es-abstract/operations/getOps.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/eslint-config-prettier/bin/cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/eslint-config-prettier/bin/cli.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/eslint-config-prettier/node_modules/.bin/eslint" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/eslint-config-prettier/node_modules/.bin/eslint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/eslint-config-prettier/node_modules/.bin/eslint.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/eslint-plugin-import/node_modules/.bin/eslint" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/eslint-plugin-import/node_modules/.bin/eslint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/eslint-plugin-import/node_modules/.bin/eslint.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/eslint-plugin-jsx-a11y/scripts/create-rule.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/eslint-plugin-jsx-a11y/scripts/create-rule.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/eslint-plugin-prettier/node_modules/.bin/eslint" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/eslint-plugin-prettier/node_modules/.bin/eslint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/eslint-plugin-prettier/node_modules/.bin/eslint.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/eslint-plugin-prettier/node_modules/.bin/prettier" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/eslint-plugin-prettier/node_modules/.bin/prettier" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/eslint-plugin-prettier/node_modules/.bin/prettier.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/eslint-plugin-react/node_modules/.bin/eslint" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/eslint-plugin-react/node_modules/.bin/eslint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/eslint-plugin-react/node_modules/.bin/eslint.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/eslint/bin/eslint.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/eslint/bin/eslint.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/eslint/node_modules/.bin/js-yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/eslint/node_modules/.bin/js-yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/eslint/node_modules/.bin/js-yaml.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/eslint/node_modules/.bin/mkdirp" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/eslint/node_modules/.bin/mkdirp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/eslint/node_modules/.bin/mkdirp.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/eslint/node_modules/.bin/semver" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/eslint/node_modules/.bin/semver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/eslint/node_modules/.bin/semver.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/espree/node_modules/.bin/acorn" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/espree/node_modules/.bin/acorn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/espree/node_modules/.bin/acorn.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/esprima/bin/esparse.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/esprima/bin/esparse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/esprima/bin/esvalidate.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/esprima/bin/esvalidate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/esrecurse/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/esrecurse/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/execa/node_modules/cross-spawn/node_modules/.bin/which" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/execa/node_modules/cross-spawn/node_modules/.bin/which" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/execa/node_modules/cross-spawn/node_modules/.bin/which.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/flat-cache/changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/flat-cache/changelog.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/flat-cache/node_modules/.bin/rimraf" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/flat-cache/node_modules/.bin/rimraf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/flat-cache/node_modules/.bin/rimraf.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/ignore/LICENSE-MIT" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/ignore/LICENSE-MIT" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/ignore/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/ignore/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/ignore/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/ignore/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/invariant/node_modules/.bin/loose-envify" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/invariant/node_modules/.bin/loose-envify" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/invariant/node_modules/.bin/loose-envify.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/is-ci/bin.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/is-ci/bin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/js-yaml/bin/js-yaml.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/js-yaml/bin/js-yaml.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/js-yaml/node_modules/.bin/esparse" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/js-yaml/node_modules/.bin/esparse" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/js-yaml/node_modules/.bin/esparse.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/js-yaml/node_modules/.bin/esvalidate" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/js-yaml/node_modules/.bin/esvalidate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/js-yaml/node_modules/.bin/esvalidate.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/jsesc/bin/jsesc" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/jsesc/bin/jsesc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/json5/lib/cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/json5/lib/cli.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/jsonwebtoken/node_modules/.bin/semver" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/jsonwebtoken/node_modules/.bin/semver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/jsonwebtoken/node_modules/.bin/semver.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/loose-envify/cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/loose-envify/cli.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/micromatch/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/micromatch/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/mime/cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/mime/cli.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/mkdirp/bin/cmd.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/mkdirp/bin/cmd.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/nan/tools/1to2.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/nan/tools/1to2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/needle/bin/needle" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/needle/bin/needle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/needle/examples/parsed-stream2.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/needle/examples/parsed-stream2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/needle/note.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/needle/note.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/needle/note.xml.1" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/needle/note.xml.1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/needle/test/compression_spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/needle/test/compression_spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/node-pre-gyp/bin/node-pre-gyp" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/node-pre-gyp/bin/node-pre-gyp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/node-pre-gyp/node_modules/.bin/detect-libc" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/node-pre-gyp/node_modules/.bin/detect-libc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/node-pre-gyp/node_modules/.bin/detect-libc.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/node-pre-gyp/node_modules/.bin/mkdirp" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/node-pre-gyp/node_modules/.bin/mkdirp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/node-pre-gyp/node_modules/.bin/mkdirp.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/node-pre-gyp/node_modules/.bin/needle" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/node-pre-gyp/node_modules/.bin/needle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/node-pre-gyp/node_modules/.bin/needle.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/node-pre-gyp/node_modules/.bin/nopt" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/node-pre-gyp/node_modules/.bin/nopt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/node-pre-gyp/node_modules/.bin/nopt.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/node-pre-gyp/node_modules/.bin/rc" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/node-pre-gyp/node_modules/.bin/rc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/node-pre-gyp/node_modules/.bin/rc.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/node-pre-gyp/node_modules/.bin/rimraf" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/node-pre-gyp/node_modules/.bin/rimraf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/node-pre-gyp/node_modules/.bin/rimraf.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/node-pre-gyp/node_modules/.bin/semver" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/node-pre-gyp/node_modules/.bin/semver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/node-pre-gyp/node_modules/.bin/semver.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/nodemon/bin/nodemon.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/nodemon/bin/nodemon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/nodemon/bin/postinstall.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/nodemon/bin/postinstall.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/nodemon/node_modules/.bin/nodetouch" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/nodemon/node_modules/.bin/nodetouch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/nodemon/node_modules/.bin/nodetouch.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/nodemon/node_modules/.bin/semver" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/nodemon/node_modules/.bin/semver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/nodemon/node_modules/.bin/semver.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/nopt/bin/nopt.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/nopt/bin/nopt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/nopt/examples/my-program.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/nopt/examples/my-program.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/normalize-package-data/node_modules/.bin/semver" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/normalize-package-data/node_modules/.bin/semver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/normalize-package-data/node_modules/.bin/semver.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/output-file-sync/node_modules/.bin/mkdirp" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/output-file-sync/node_modules/.bin/mkdirp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/output-file-sync/node_modules/.bin/mkdirp.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/package-json/node_modules/.bin/semver" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/package-json/node_modules/.bin/semver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/package-json/node_modules/.bin/semver.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/prettier/bin-prettier.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/prettier/bin-prettier.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/prettier/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/prettier/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/prettier/parser-postcss.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/prettier/parser-postcss.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/prettier/standalone.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/prettier/standalone.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/prop-types/node_modules/.bin/loose-envify" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/prop-types/node_modules/.bin/loose-envify" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/prop-types/node_modules/.bin/loose-envify.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/rc/cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/rc/cli.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/rc/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/rc/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/regexpp/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/regexpp/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/regexpu-core/node_modules/.bin/regjsparser" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/regexpu-core/node_modules/.bin/regjsparser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/regexpu-core/node_modules/.bin/regjsparser.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/registry-auth-token/node_modules/.bin/rc" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/registry-auth-token/node_modules/.bin/rc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/registry-auth-token/node_modules/.bin/rc.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/registry-url/node_modules/.bin/rc" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/registry-url/node_modules/.bin/rc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/registry-url/node_modules/.bin/rc.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/regjsgen/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/regjsgen/LICENSE.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/regjsgen/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/regjsgen/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/regjsparser/bin/parser" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/regjsparser/bin/parser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/regjsparser/node_modules/.bin/jsesc" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/regjsparser/node_modules/.bin/jsesc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/regjsparser/node_modules/.bin/jsesc.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/regjsparser/node_modules/jsesc/bin/jsesc" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/regjsparser/node_modules/jsesc/bin/jsesc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/require_optional/node_modules/.bin/semver" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/require_optional/node_modules/.bin/semver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/require_optional/node_modules/.bin/semver.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/resolve-url/.jshintrc" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/resolve-url/.jshintrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/resolve-url/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/resolve-url/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/resolve-url/resolve-url.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/resolve-url/resolve-url.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/resolve-url/test/resolve-url.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/resolve-url/test/resolve-url.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/rimraf/bin.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/rimraf/bin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/rxjs/bundles/rxjs.umd.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/rxjs/bundles/rxjs.umd.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/semver-diff/node_modules/.bin/semver" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/semver-diff/node_modules/.bin/semver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/semver-diff/node_modules/.bin/semver.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/semver/bin/semver" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/semver/bin/semver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/send/node_modules/.bin/mime" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/send/node_modules/.bin/mime" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/send/node_modules/.bin/mime.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/slice-ansi/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/slice-ansi/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/source-map-resolve/node_modules/.bin/atob" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/source-map-resolve/node_modules/.bin/atob" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/source-map-resolve/node_modules/.bin/atob.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/tar/node_modules/.bin/mkdirp" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/tar/node_modules/.bin/mkdirp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/tar/node_modules/.bin/mkdirp.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/term-size/vendor/macos/term-size" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/term-size/vendor/macos/term-size" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/touch/bin/nodetouch.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/touch/bin/nodetouch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/touch/node_modules/.bin/nopt" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/touch/node_modules/.bin/nopt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/touch/node_modules/.bin/nopt.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/touch/node_modules/nopt/bin/nopt.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/touch/node_modules/nopt/bin/nopt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/touch/node_modules/nopt/examples/my-program.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/touch/node_modules/nopt/examples/my-program.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/tslib/CopyrightNotice.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/tslib/CopyrightNotice.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/tslib/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/tslib/LICENSE.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/tslib/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/tslib/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/tslib/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/tslib/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/tslib/docs/generator.md" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/tslib/docs/generator.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/tslib/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/tslib/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/tslib/tslib.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/tslib/tslib.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/tslib/tslib.es6.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/tslib/tslib.es6.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/tslib/tslib.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/tslib/tslib.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/upath/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/upath/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/update-notifier/node_modules/.bin/is-ci" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/update-notifier/node_modules/.bin/is-ci" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/update-notifier/node_modules/.bin/is-ci.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/uri-js/dist/es5/uri.all.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/uri-js/dist/es5/uri.all.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/uri-js/dist/es5/uri.all.min.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/uri-js/dist/es5/uri.all.min.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/uri-js/dist/esnext/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/uri-js/dist/esnext/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/uri-js/dist/esnext/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/uri-js/dist/esnext/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/uri-js/dist/esnext/regexps-iri.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/uri-js/dist/esnext/regexps-iri.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/uri-js/dist/esnext/regexps-iri.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/uri-js/dist/esnext/regexps-iri.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/uri-js/dist/esnext/regexps-uri.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/uri-js/dist/esnext/regexps-uri.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/uri-js/dist/esnext/regexps-uri.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/uri-js/dist/esnext/regexps-uri.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/uri-js/dist/esnext/schemes/http.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/uri-js/dist/esnext/schemes/http.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/uri-js/dist/esnext/schemes/http.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/uri-js/dist/esnext/schemes/http.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/uri-js/dist/esnext/schemes/https.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/uri-js/dist/esnext/schemes/https.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/uri-js/dist/esnext/schemes/https.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/uri-js/dist/esnext/schemes/https.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/uri-js/dist/esnext/schemes/mailto.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/uri-js/dist/esnext/schemes/mailto.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/uri-js/dist/esnext/schemes/urn-uuid.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/uri-js/dist/esnext/schemes/urn-uuid.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/uri-js/dist/esnext/schemes/urn-uuid.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/uri-js/dist/esnext/schemes/urn-uuid.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/uri-js/dist/esnext/schemes/urn.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/uri-js/dist/esnext/schemes/urn.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/uri-js/dist/esnext/schemes/urn.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/uri-js/dist/esnext/schemes/urn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/uri-js/dist/esnext/uri.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/uri-js/dist/esnext/uri.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/uri-js/dist/esnext/util.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/uri-js/dist/esnext/util.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/uri-js/dist/esnext/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/uri-js/dist/esnext/util.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/uri-js/tests/qunit.css" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/uri-js/tests/qunit.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/uri-js/tests/qunit.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/uri-js/tests/qunit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/urix/.jshintrc" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/urix/.jshintrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/urix/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/urix/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/urix/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/urix/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/urix/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/urix/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/urix/test/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/urix/test/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/user-home/cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/user-home/cli.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/v8flags/node_modules/.bin/user-home" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/v8flags/node_modules/.bin/user-home" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/v8flags/node_modules/.bin/user-home.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/which/bin/which" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/which/bin/which" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/write/node_modules/.bin/mkdirp" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/node_modules/write/node_modules/.bin/mkdirp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/node_modules/write/node_modules/.bin/mkdirp.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/src/Model/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/src/Model/User.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/src/routes/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/src/routes/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book-web-api/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../book-web-api/yarn.lock" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -12,15 +365,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/forms/LoginForm.js">
+        <entry file="file://$PROJECT_DIR$/src/api.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="240">
+              <caret line="16" column="77" selection-start-line="16" selection-start-column="77" selection-end-line="16" selection-end-column="77" />
             </state>
           </provider>
         </entry>
@@ -28,50 +378,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/actions/auth.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#40#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="405">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/types.js">
+        <entry file="file://$PROJECT_DIR$/src/components/pages/NewBookPage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="47" selection-start-column="47" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/reducers/user.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-              <folding>
-                <element signature="e#0#52#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/pages/LoginPage.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+            <state relative-caret-position="270">
+              <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -80,12 +397,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/pages/HomePage.js">
+        <entry file="file://$PROJECT_DIR$/src/components/forms/SearchBookForm.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="37" lean-forward="true" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+            <state relative-caret-position="60">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
               <folding>
-                <element signature="e#1#27#0" expanded="true" />
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/pages/DashboardPage.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -93,26 +422,46 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/components/pages</dir>
+    </dirStrings>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/components/pages/LoginPage.js" />
-        <option value="$PROJECT_DIR$/src/components/pages/HomePage.js" />
-        <option value="$PROJECT_DIR$/src/actions/auth.js" />
         <option value="$PROJECT_DIR$/src/types.js" />
         <option value="$PROJECT_DIR$/src/reducers/user.js" />
+        <option value="$PROJECT_DIR$/src/components/forms/LoginForm.js" />
+        <option value="$PROJECT_DIR$/src/components/pages/LoginPage.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/components/routes/UserRoute.js" />
+        <option value="$PROJECT_DIR$/../../Tutorials/copy/bookworm-react/src/components/routes/GuestRoute.js" />
+        <option value="$PROJECT_DIR$/src/components/pages/HomePage.js" />
+        <option value="$PROJECT_DIR$/src/components/pages/DashboardPage.js" />
+        <option value="$PROJECT_DIR$/src/components/messages/ConfirmEmailMessage.js" />
+        <option value="$PROJECT_DIR$/src/components/forms/SignupForm.js" />
+        <option value="$PROJECT_DIR$/src/components/pages/SignupPage.js" />
+        <option value="$PROJECT_DIR$/src/actions/users.js" />
+        <option value="$PROJECT_DIR$/src/components/pages/ConfirmationPage.js" />
+        <option value="$PROJECT_DIR$/src/components/pages/ForgotPassword.js" />
+        <option value="$PROJECT_DIR$/src/components/pages/ResetPassword.js" />
+        <option value="$PROJECT_DIR$/src/actions/auth.js" />
+        <option value="$PROJECT_DIR$/src/components/forms/ForgotPasswordForm.js" />
+        <option value="$PROJECT_DIR$/src/api.js" />
+        <option value="$PROJECT_DIR$/src/components/pages/NewBookPage.js" />
+        <option value="$PROJECT_DIR$/src/components/forms/SearchBookForm.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="100" />
-    <option name="y" value="20" />
-    <option name="width" value="1400" />
-    <option name="height" value="820" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="804" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -157,33 +506,46 @@
               <item name="book-warm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="messages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="book-warm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book-warm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="book-warm" type="b2602c69:ProjectViewProjectNode" />
               <item name="book-warm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="reducers" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.standard" value="project" />
-    <property name="node.js.selected.package.eslint" value="C:\Users\HP\Desktop\book-woarm\book-warm\node_modules\eslint" />
+    <property name="node.js.selected.package.eslint" value="C:/Users/HP/Desktop/book-woarm/book-warm/node_modules/eslint" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="yarn" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\HP\Desktop\book-woarm\book-warm\node_modules\prettier" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -209,22 +571,33 @@
       <updated>1553590752777</updated>
       <workItem from="1553590762926" duration="1276000" />
       <workItem from="1553592782578" duration="2820000" />
+      <workItem from="1555066052883" duration="4000" />
+      <workItem from="1555066122960" duration="8000" />
+      <workItem from="1555071363269" duration="3156000" />
+      <workItem from="1555094959914" duration="1523000" />
+      <workItem from="1555138042277" duration="7322000" />
+      <workItem from="1555186931255" duration="8143000" />
+      <workItem from="1555242380200" duration="9653000" />
+      <workItem from="1555351717676" duration="1738000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4096000" />
+    <option name="totallyTimeSpent" value="35643000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="804" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24968314" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25581396" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Designer" order="5" />
+      <window_info id="UI Designer" order="6" />
+      <window_info id="Capture Tool" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3286517" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -233,63 +606,28 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3300562" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="TypeScript" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/forms/LoginForm.js">
+    <entry file="file://$PROJECT_DIR$/src/reducers/user.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#0#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/pages/LoginPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/pages/HomePage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="37" lean-forward="true" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
-          <folding>
-            <element signature="e#1#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/actions/auth.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="90">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -300,10 +638,229 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/user.js">
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Tutorials/copy/bookworm-react/src/components/routes/UserRoute.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+        <state relative-caret-position="240">
+          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Tutorials/copy/bookworm-react/src/components/routes/GuestRoute.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="2" lean-forward="true" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/routes/GuestRoute.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#0#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/messages/ConfirmEmailMessage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/routes/UserRoute.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/forms/LoginForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="55" column="24" lean-forward="true" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/forms/SignupForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="66" column="38" selection-start-line="66" selection-start-column="38" selection-end-line="66" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/pages/SignupPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/pages/HomePage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="28" column="4" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+          <folding>
+            <element signature="e#1#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/axios/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="122" column="14" selection-start-line="122" selection-start-column="14" selection-end-line="122" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Tutorials/copy/bookworm-react/src/actions/auth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-233">
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/pages/ForgotPassword.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="61" selection-start-line="2" selection-start-column="61" selection-end-line="2" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="77" selection-start-line="16" selection-start-column="77" selection-end-line="16" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/auth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/forms/ForgotPasswordForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/pages/ResetPassword.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Tutorials/copy/bookworm-react/src/components/forms/ForgotPasswordForm.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/pages/ConfirmationPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="41" column="29" lean-forward="true" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/pages/LoginPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/pages/NewBookPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/forms/SearchBookForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/pages/DashboardPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -21,5 +21,14 @@ export const logout = () => dispatch =>{
     dispatch(userLoggedOut());
   };
 
+export const confirm = (token) => api.user.confirm(token)
+  .then(user=> {
+    localStorage.bookJWT = user.token;
+    dispatch(userLoggedIn(user));
+  });
 
+export const resetPasswordrequest = ({email}) => () =>
+  api.user.resetPasswordrequest(email);
 
+export const validateToken = (token) => () =>
+api.user.validateToken(token);
