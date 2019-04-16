@@ -1,0 +1,3 @@
+MONGODB_URL=mongodb://localhost/book
+JWT_SECRET=secretkeyhere
+HOST=http://localhost:3000

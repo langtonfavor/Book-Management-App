@@ -1,27 +1,26 @@
 import express from "express";
-import mongoose from 'mongoose';
-import auth from './routes/auth';
-import bodyParser from 'body-parser';
-import User from './Model/User';
-import dotenv from 'dotenv';
-
 import path from "path";
+import mongoose from "mongoose";
+import bodyParser from "body-parser";
+import dotenv from "dotenv";
+import Promise from "bluebird";
+
+import auth from "./routes/auth";
+import users from "./routes/users";
+import books from "./routes/books";
 
 dotenv.config();
-
 const app = express();
 app.use(bodyParser.json());
-
-mongoose.connect("mongodb://localhost/books", { useMongoClient: true });
-
+mongoose.Promise = Promise;
+mongoose.connect(process.env.MONGODB_URL, { useMongoClient: true });
 
 app.use("/api/auth", auth);
+app.use("/api/users", users);
+app.use("/api/books", books);
+
 app.get("/*", (req, res) => {
     res.sendFile(path.join(__dirname, "index.html"));
 });
 
-app.listen(8080, () => {
-    console.log(`Server started on port 8080`);
-});
-
-
+app.listen(8080, () => console.log("Running on localhost:8080"));
