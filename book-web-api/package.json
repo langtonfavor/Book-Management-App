@@ -22,7 +22,7 @@
     "prettier": "^1.16.4"
   },
   "dependencies": {
-    "bcrypt": "^3.0.5",
+    "bcrypt": "^5.0.0",
     "bluebird": "^3.5.4",
     "body-parser": "^1.18.3",
     "dotenv": "^7.0.0",
